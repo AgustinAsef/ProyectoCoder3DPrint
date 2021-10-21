@@ -1,0 +1,31 @@
+@import"./variables";
+@import"./mediaQuerie";
+nav{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    background-color: $colorCeleste;
+    @include tablet{
+        
+    }
+    ul{
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }    
+}
+
+.logo{
+    border-radius: 16px;
+    height: 100px;
+    width: 100px;
+}
+
+.menu{
+    padding: $p1 $p1;
+    color: $colorCeleste;
+    background-color: white;
+    border: solid $colorCeleste;
+    border-radius: 20px;
+    margin-left: 15px;
+}

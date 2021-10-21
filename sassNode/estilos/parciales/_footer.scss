@@ -1,0 +1,11 @@
+@import"./variables";
+.footer{
+    background-color: $colorCeleste;
+    color: white;
+    margin-top: 2rem;
+    .textoFooter{
+        height: 30%;
+        width: 30%;
+        padding: 1rem;
+    }
+}

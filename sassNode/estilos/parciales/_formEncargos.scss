@@ -1,0 +1,13 @@
+@import"./variables";
+
+.formEncargos{
+    border: solid $colorCeleste;
+    padding: $p1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+
+    &__cuadroTexto{
+        width: 500px;
+    }
+}

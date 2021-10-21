@@ -1,0 +1,25 @@
+$p1:1rem;
+$colorCeleste: #1a81e7;
+$bordeRedondo: border-radius 12px;
+
+.backColor{
+    background-color: $colorCeleste;
+}
+
+.p1{
+    padding: $p1;
+}
+
+.bordeCeleste{
+    border:  solid 2px #1a81e7;
+    border-radius: $bordeRedondo;
+    padding: 5px;
+}
+
+.bordeRedondo{
+    border-radius: $bordeRedondo;
+}
+
+.colorCeleste{
+    color: $colorCeleste;
+}
