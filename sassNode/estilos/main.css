@@ -254,11 +254,11 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 13px;
+  border-radius: 1rem;
 }
 
 .formEncargos__cuadroTexto {
-  width: 500px;
+  width: 100%;
 }
 
 .backColor {
@@ -286,12 +286,20 @@ nav ul {
 .footer {
   background-color: #1a81e7;
   color: white;
-  margin-top: 2rem;
 }
 
 .footer .textoFooter {
+  text-decoration: none;
+  font-size: 18px;
   height: 30%;
   width: 30%;
   padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .textoFooter {
+    font-size: 10px;
+    padding: 1rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
