@@ -1,0 +1,44 @@
+.backColor {
+  background-color: #1a81e7;
+}
+
+.p1 {
+  padding: 1rem;
+}
+
+.bordeCeleste {
+  border: solid 2px #1a81e7;
+  border-radius: border-radius 12px;
+  padding: 5px;
+}
+
+.bordeRedondo {
+  border-radius: border-radius 12px;
+}
+
+.colorCeleste {
+  color: #1a81e7;
+}
+
+.nosotros {
+  border-radius: 16px;
+  height: 250px;
+  width: 250px;
+  border: solid #1a81e7 3px;
+  padding: 0px !important;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .nosotros {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.nosContenedor {
+  text-align: center;
+  display: flex block;
+}
+/*# sourceMappingURL=nos.css.map */

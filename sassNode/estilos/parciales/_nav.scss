@@ -1,31 +1,77 @@
 @import"./variables";
 @import"./mediaQuerie";
+.header{
+background-color: $colorCeleste;
+width: 100%;
+}
+
 nav{
     display: flex;
-    width: 100%;
-    padding: 1rem;
+    padding: 5px;
     background-color: $colorCeleste;
-    @include tablet{
-        
     }
     ul{
         display: flex;
         text-align: center;
         width: 100%;
     }    
-}
 
 .logo{
-    border-radius: 16px;
-    height: 100px;
-    width: 100px;
+    border-radius: 10px;
+    height: 90px;
+    width: 90px;
+    @include tablet{
+        height: 70px;
+        width: 70px;
+    }
 }
 
 .menu{
-    padding: $p1 $p1;
-    color: $colorCeleste;
-    background-color: white;
-    border: solid $colorCeleste;
-    border-radius: 20px;
+    display: flex;
+    color: white;
     margin-left: 15px;
+    
+}
+.menunav{
+    color: white;
+    margin-left: 15px;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    padding: 8px 12px;
+    border-radius: 16px;
+    @include tablet{
+        margin-left: 0px;
+        text-transform: uppercase;
+        margin-right: 0px;
+        padding: 8px 12px;
+        border-radius: 0px;
+        border: solid $colorCeleste;
+    
+    }
+}
+
+.menunav:hover{
+    background-color: white;
+  transition: 0.5s;
+  @include tablet{
+      background-color: $colorCeleste;
+      color: white;
+  }
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    @include tablet{
+     color: $colorCeleste;
+     background-color: white;
+     width: 100%;
+     display: block;
+    }
+}
+
+.menuburguer{
+    color: white;
+    border: white;
+    background-color: $colorCeleste;
 }

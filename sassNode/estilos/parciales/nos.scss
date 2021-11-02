@@ -1,0 +1,20 @@
+@import"./variables";
+@import"./mediaQuerie";
+
+.nosotros{
+    border-radius: 16px;
+    height: 250px;
+    width: 250px;
+    border: solid $colorCeleste 3px;
+    padding: 0px !important;
+    margin-top:  1rem;
+    margin-right: 1rem;
+    @include tablet{
+        height: 150px;
+        width: 150px;
+    }
+}
+.nosContenedor{
+    text-align: center;
+    display:flex block;
+}
