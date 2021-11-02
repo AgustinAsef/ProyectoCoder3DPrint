@@ -9,6 +9,7 @@ nav{
     display: flex;
     padding: 5px;
     background-color: $colorCeleste;
+    @include tablet{}
     }
     ul{
         display: flex;
@@ -21,8 +22,9 @@ nav{
     height: 90px;
     width: 90px;
     @include tablet{
-        height: 70px;
-        width: 70px;
+        border-radius: 7px;
+        height: 60px;
+        width: 60px;
     }
 }
 

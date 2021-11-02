@@ -154,8 +154,9 @@ ul {
 
 @media screen and (max-width: 991px) {
   .logo {
-    height: 70px;
-    width: 70px;
+    border-radius: 7px;
+    height: 60px;
+    width: 60px;
   }
 }
 
@@ -403,5 +404,10 @@ ul {
     height: 150px;
     width: 150px;
   }
+}
+
+.nosContenedor {
+  text-align: center;
+  display: flex block;
 }
 /*# sourceMappingURL=main.css.map */
