@@ -11,24 +11,33 @@
     <link rel="stylesheet" href="../sassNode/estilos/main.css">
 </head>
 <body>
-    <header>
-        <nav class="d-flex align-items-end">
-            <div>
-                <a href="../index.html"><img src="../imagenes/logo.jpg" alt="logo" class="logo"></a>
-            </div>
-            <div class="fs-4">
-                <ul>
-                    <li><p><a href="./productos.html" class="menu">Productos</a></p></li>
-                    <li><p><a href="./encargosEspeciales.html" class="menu">Encargos</a></p></li>
-                    <li><p><a href="./soporte.html" class="menu">soporte</a></p></li>
+    <header class="header ">
+        <nav class="navbar navbar-expand-lg navbar-light fs-5 container">
+            <div class="container-fluid d-flex justify-content-between">
+              <a class="navbar-brand " href="../index.html"><img src="../imagenes/logo.jpg" alt="logo" class="logo"></a>
+              <button class="navbar-toggler menuburguer" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-end">
+                  <li class="nav-item">
+                    <a class=" active menunav link" aria-current="page" href="./productos.html" class="menunav link">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class=" menunav link" href="./encargosEspeciales.html" class="menunav link">Encargos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class=" menunav link"href="./soporte.html" class="menunav link">Soporte</a>
+                  </li>
                 </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
     <main class="p1">
         <div>
             <form action="encargos" >
-                <fieldset class="formEncargos">
+                <fieldset class="formEncargos container">
                     <legend>Para encaros particulares rellene el formulario:</legend>
                     <div>
                         <label for="formadecontacto">Ingrese numero o email de contacto:</label>
@@ -55,27 +64,25 @@
         </div>
     </main>
         <p></p>
-        <footer>
-            <div class="d-flex justify-content-between align-items-center footer ">
+        <footer class="footer">
+            <div class="d-flex justify-content-between align-items-center footer container">
                 <div class="textoFooter text-star">
                     <p>Nosotros
                         <hr>
                     3D es un emprendimiento desarrollado en la provincia de mendoza, argentina, por parte de Agustin y Matias.</p>
                 </div>
                 <div class="textoFooter text-center">
-                    <p><a href="https://www.facebook.com/">Facebook</a></p>
-                    <p><a href="https://www.instagram.com/?hl=es">Instagram</a></p>
+                    <p><a href="https://www.facebook.com/" class="link">Facebook</a></p>
+                    <p><a href="https://www.instagram.com/?hl=es" class="link">Instagram</a></p>
                 </div>        
                 <div class="textoFooter">
                     <p>Formas de contacto:
                         <hr>
-                    Mail: agustinbattiganeasef@gmail.com/
-                    Telefono: 2615741806(mendoza)/
-                    Republica del libano 764/
-                    Horario de atencion de 10hs a 20hs</p>
+                        Ingresando al siguiente link podras contactarnos:
+                        <a href="./soporte.html" class="link">Soporte</a>
                 </div>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-</body>
+    </body>
 </html>

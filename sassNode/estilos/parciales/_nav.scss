@@ -9,7 +9,6 @@ nav{
     display: flex;
     padding: 5px;
     background-color: $colorCeleste;
-    @include tablet{}
     }
     ul{
         display: flex;
@@ -72,8 +71,3 @@ nav{
     }
 }
 
-.menuburguer{
-    color: white;
-    border: white;
-    background-color: $colorCeleste;
-}

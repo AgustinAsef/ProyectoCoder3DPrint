@@ -32,13 +32,8 @@
 
 @media screen and (max-width: 991px) {
   .nosotros {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
   }
-}
-
-.nosContenedor {
-  text-align: center;
-  display: flex block;
 }
 /*# sourceMappingURL=nos.css.map */
