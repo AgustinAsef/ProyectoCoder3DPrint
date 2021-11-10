@@ -115,8 +115,13 @@
   height: 100%;
   border: #1a81e7;
   border-radius: 16px;
-  min-width: 400px;
-  min-height: 400px;
+}
+
+@media screen and (max-width: 991px) {
+  .imagenCarrucel {
+    min-width: 250px;
+    min-height: 250px;
+  }
 }
 
 .boton {
@@ -176,6 +181,12 @@
 
 .contenedorTexto {
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .contenedorTexto {
+    min-width: 300px;
+  }
 }
 
 .backColor {

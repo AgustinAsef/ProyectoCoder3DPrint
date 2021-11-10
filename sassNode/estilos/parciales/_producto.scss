@@ -34,8 +34,10 @@
     height: 100%;
     border: $colorCeleste;
     border-radius: 16px;
-    min-width: 400px;    
-    min-height: 400px;
+    @include tablet{
+        min-width: 250px;
+        min-height: 250px;
+    }
 }
 
 .boton{
@@ -81,4 +83,7 @@
 
 .contenedorTexto{
     margin-top: 1rem;
-}
+    @include tablet{
+        min-width: 300px;
+    }
+    }
