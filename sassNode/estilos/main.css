@@ -138,12 +138,7 @@
   text-transform: uppercase !important;
   border-radius: 10px;
   border: solid #1a81e7;
-}
-
-@media screen and (max-width: 991px) {
-  .boton {
-    margin-top: 1rem;
-  }
+  margin-top: 1rem;
 }
 
 .boton:hover {
@@ -163,13 +158,14 @@
 }
 
 .botonSecundario {
-  width: 48%;
+  width: 40%;
   padding: 2px;
   background-color: white;
   color: #1a81e7;
   border-radius: 10px;
   border: solid #1a81e7;
   margin-top: 1rem;
+  margin: 1rem;
 }
 
 .botonSecundario:hover {
@@ -270,7 +266,8 @@ ul {
     margin-right: 0px;
     padding: 8px 12px;
     border-radius: 0px;
-    border: solid #1a81e7;
+    border: none;
+    border-radius: 16px;
   }
 }
 
@@ -282,8 +279,8 @@ ul {
 
 @media screen and (max-width: 991px) {
   .menunav:hover {
-    background-color: #1a81e7;
-    color: white;
+    background-color: white;
+    color: #1a81e7;
   }
 }
 
@@ -294,8 +291,8 @@ ul {
 
 @media screen and (max-width: 991px) {
   .link {
-    color: #1a81e7;
-    background-color: white;
+    color: white;
+    background-color: #1a81e7;
     width: 100%;
     display: block;
   }

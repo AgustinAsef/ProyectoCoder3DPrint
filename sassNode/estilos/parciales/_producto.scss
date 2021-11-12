@@ -50,9 +50,8 @@
    text-transform: uppercase !important;
    border-radius: 10px;
    border: solid $colorCeleste;
-   @include tablet{
-       margin-top: 1rem;
-   }
+    margin-top: 1rem;
+   
 }
 
 .boton:hover{
@@ -66,13 +65,14 @@
 }
 
 .botonSecundario{
-    width: 48%;
+    width: 40%;
     padding: 2px;
     background-color: white;
     color: $colorCeleste;
     border-radius: 10px;
     border: solid $colorCeleste;
     margin-top: 1rem;
+    margin: 1rem;
 
 }
 
